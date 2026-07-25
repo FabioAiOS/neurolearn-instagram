@@ -42,6 +42,23 @@ Palavras prioritárias: aprendizagem, potencial, acolhimento, autonomia, confian
 
 Todo texto deve estar em português impecável: ortografia 100% correta (sem "vc"/"pq"/"tb"), pontuação correta e consistente (vírgulas em enumerações, antes de adversativas como "mas", em orações intercaladas; ponto final correto), concordância verbal e nominal corretas mesmo em frases curtas, crase e regência corretas. Emoji e caixa alta são recurso visual, nunca substituem pontuação. Revisar como um revisor profissional revisaria: se soa errado para um leitor culto de português do Brasil, reescrever. Erro de português é inaceitável.
 
+### Regência verbal e nominal (reforço específico — ponto de atenção máximo)
+
+Erro de regência é o tipo de erro mais fácil de escapar despercebido e o mais grave para a credibilidade de uma marca de educação. Antes de finalizar qualquer texto, conferir a regência de todo verbo que rege preposição, usando como referência os dicionários mais renomados da língua portuguesa (Houaiss, Aurélio, Michaelis, Priberam, Dicionário Aulete). Em caso de dúvida ou verbo de regência variável, seguir a norma culta registrada nesses dicionários. Esses dicionários são atualizados periodicamente — se uma regra normativa mudar em edição mais recente, seguir sempre a versão mais atual, nunca uma regra decorada e desatualizada.
+
+Casos de regência que mais geram erro (conferir sempre antes de publicar):
+
+- "assistir" (no sentido de ver) rege "a": assistir AO vídeo, assistir AO filme, assistir À aula — nunca "assistir o vídeo".
+- "aspirar" (no sentido de desejar) rege "a": aspira A uma vida melhor — nunca "aspira uma vida melhor".
+- "obedecer"/"desobedecer" regem "a": obedecer AOS pais, obedecer ÀS regras.
+- "preferir" rege "a" (nunca "do que"): prefiro estudar A brincar — nunca "prefiro estudar brincar" nem "prefiro estudar do que brincar".
+- "chegar"/"ir" regem "a" para indicar destino (não "em"): chegar À escola, ir AO espaço — evitar "chegar na escola" em qualquer conteúdo oficial da marca.
+- "informar"/"avisar"/"comunicar"/"certificar" podem reger dois objetos (informar alguém DE algo, ou informar A alguém sobre algo) — manter consistência dentro do mesmo texto.
+- "visar" no sentido de "ter como objetivo" rege "a": visa AO desenvolvimento da criança.
+- "querer" no sentido de "estimar/amar" rege "a" (quero bem AO meu aluno); no sentido de "desejar" é transitivo direto, sem preposição (quero um café).
+
+Esta lista é um lembrete dos erros mais comuns, não substitui a checagem real: sempre que houver dúvida sobre a regência de um verbo específico, priorizar a forma abonada pelos dicionários citados acima, nunca achismo ou uso coloquial de redes sociais.
+
 ## Regras éticas (inegociáveis)
 
 - Nunca criar "testes de autodiagnóstico". Listar sinais e direcionar para "vale conversar com quem entende", nunca para conclusão/rótulo.
