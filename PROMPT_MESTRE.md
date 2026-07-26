@@ -127,4 +127,4 @@ Assim que o "harness" do Juan estiver disponível no GitHub (FabioAiOS/Fabio-Git
 
 ## Operação da rotina automática
 
-Este repositório é **somente armazenamento/geração de conteúdo para revisão humana**. A rotina automática **nunca publica nem agenda nada no Instagram** — apenas prepara o material completo em `/content/<data>.md` para Fábio/Ana Paula publicarem manualmente, e registra o planejamento em `/tracking/metricas.csv` para que as métricas reais sejam preenchidas depois da publicação e usadas para orientar as próximas escolhas de pilar/formato/gancho.
+Este repositório é **somente armazenamento/geração de conteúdo para revisão humana**. A rotina automática **nunca publica nem agenda nada no Instagram** — apenas prepara o material completo em `/POST DIARIO INSTAGRAM/<data>.md` para Fábio/Ana Paula publicarem manualmente, e registra o planejamento em `/tracking/metricas.csv` para que as métricas reais sejam preenchidas depois da publicação e usadas para orientar as próximas escolhas de pilar/formato/gancho.
