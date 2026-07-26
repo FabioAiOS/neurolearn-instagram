@@ -128,3 +128,9 @@ Assim que o "harness" do Juan estiver disponível no GitHub (FabioAiOS/Fabio-Git
 ## Operação da rotina automática
 
 Este repositório é **somente armazenamento/geração de conteúdo para revisão humana**. A rotina automática **nunca publica nem agenda nada no Instagram** — apenas prepara o material completo em `/POST DIARIO INSTAGRAM/<data>.md` para Fábio/Ana Paula publicarem manualmente, e registra o planejamento em `/tracking/metricas.csv` para que as métricas reais sejam preenchidas depois da publicação e usadas para orientar as próximas escolhas de pilar/formato/gancho.
+
+### Galeria HTML de revisão
+
+Além do `.md` de cada dia, a rotina mantém `/POST DIARIO INSTAGRAM/_Galeria.html`: uma página única que reúne os posts em ordem cronológica decrescente (mais recente primeiro), com miniaturas das artes do carrossel, a legenda pronta para copiar (botão "Copiar legenda") e link para o brief completo em `.md`. A cada execução, a rotina adiciona um novo bloco `.post` no topo da lista dessa página, seguindo exatamente a mesma estrutura HTML/CSS já usada nos blocos existentes (não recriar o arquivo do zero, só inserir o novo bloco e manter os anteriores).
+
+Cada slide do carrossel é referenciado pelo nome de arquivo `Post do dia <AAAA-MM-DD> - N de <total>.png` (ex.: `Post do dia 2026-07-27 - 1 de 5.png`), salvo na mesma pasta. A IA não gera as imagens finais (PNG) — apenas o brief de arte, no `.md`. Ana Paula/Fábio montam a arte (Canva/CapCut) a partir desse brief e salvam o arquivo com esse nome exato na pasta; a miniatura passa a aparecer sozinha na galeria assim que o arquivo existe (enquanto não existe, a página mostra o nome esperado do arquivo no lugar da miniatura, como lembrete do que falta montar).
