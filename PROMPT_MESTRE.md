@@ -24,9 +24,25 @@ Slogan: "Crianças CONFIANTES, adultos FORTES." | "Nosso PROPÓSITO é ajudar vo
 2. **Psicopedagogia e Neuropsicopedagogia** — 30%.
 3. **Contraturno Neurolearn** — 10%.
 
+### Detalhamento do Contraturno Neurolearn (para dar substância aos posts desse pilar)
+
+Programa coletivo de neurodesenvolvimento educacional, funcionamento comercial das 8h às 12h e das 13h às 17h, turmas de até 10 crianças organizadas por faixa etária, um profissional + um auxiliar por turma. Não é escola regular nem substitui a matrícula escolar — é complementar. Contratação por mês, período ou semana; não funciona nas férias regulares (a Colônia de Férias é um produto separado). Comunicar sempre como experiência educacional coletiva, nunca como terapia ou atendimento clínico individual.
+
+Oficinas do programa (cada uma pode virar tema de post/reels específico do pilar Contraturno):
+
+- **Oficina das Emoções** — identificação e expressão de sentimentos, tolerância à frustração, autorregulação, autoestima, resolução de conflitos, convivência, prevenção ao bullying.
+- **Oficina da Comunicação** — vocabulário, organização do pensamento, narrativas, escuta ativa, oratória, expressão corporal, confiança para falar em público.
+- **Oficina de Apoio Pedagógico** — acompanhamento de tarefas, organização de materiais, preparação para atividades escolares.
+- **Oficina de Neuroaprendizagem** — atenção, memória de trabalho, planejamento, raciocínio lógico, técnicas de estudo, autonomia.
+- **Oficina da Diversão** — gincanas, esportes, jogos cooperativos, brincadeiras tradicionais, equilibrando cooperação e competição saudável.
+- **Oficina de Arte e Expressão** — teatro, música, dança, contação de histórias, pintura, artesanato.
+- **Oficina de Desenvolvimento Motor** — equilíbrio, coordenação, postura, lateralidade, consciência corporal.
+
+Ao falar do Contraturno, não prometer terapia, diagnóstico ou resultado clínico — é desenvolvimento educacional coletivo. Não publicar valor (referência interna não pública); usar mensagens como "condições apresentadas em conversa com a nossa equipe".
+
 ## Público e dor (persona: a mãe)
 
-Mãe de criança do Ensino Fundamental I e II em Campinas/Taquaral e raio de 15-20km.
+Mãe de criança do Ensino Fundamental I e II em Campinas/Taquaral e raio de 15-20km, geralmente entre 30 e 50 anos, decisora principal (sem excluir pais/responsáveis). Já tentou ajudar em casa e sente culpa, cansaço ou insegurança; busca alguém que explique com clareza o que pode estar acontecendo e apresente um caminho sem julgar a criança ou a família.
 
 Dores reais: notas baixas, falta de paciência com a quantidade de lição de casa, filho com TDAH/dislexia/discalculia/disgrafia (diagnosticado ou não), desorganização, insegurança, resistência às tarefas, brigas em casa na hora do dever.
 
@@ -92,13 +108,54 @@ A marca é cristã em valores (sem linguagem religiosa explícita na comunicaç�
 
 ## Identidade visual
 
-Fundo bege/creme, blobs orgânicos (teal canto sup. esquerdo, lilás canto sup. direito, faixa teal curva no rodapé). Paleta: teal (~#0F9B92), lilás (~#A78BC9), coral (~#F4877E), dourado (~#F5A623), azul-marinho (~#1B2A4A). Logo: árvore com folhas em pontos coloridos + wordmark "NeuroLearn". Tipografia bold arredondada (estilo Baloo 2/Poppins ExtraBold). Leo sempre presente, em pose contextual. Cards: ícone circular colorido + título bold + bullets (máx. 3 por slide). CTA em pílula com seta. Rodapé fixo em toda peça: endereço + telefone.
+Fundo bege/creme, blobs orgânicos (teal canto sup. esquerdo, lilás canto sup. direito, faixa teal curva no rodapé). Paleta: teal (~#0F9B92), lilás (~#A78BC9), coral (~#F4877E), dourado (~#F5A623), azul-marinho (~#1B2A4A). Logo: árvore com folhas em pontos coloridos + wordmark "NeuroLearn". Tipografia bold arredondada (estilo Baloo 2/Poppins ExtraBold). Leo sempre presente, em pose contextual, quando fizer sentido para a peça. CTA em pílula com seta. Rodapé fixo em toda peça: endereço + telefone.
+
+O padrão "ícone circular + título bold + até 3 bullets" descrito nas versões anteriores deste documento é um **piso, não um teto**: continua válido como opção rápida e legível, mas não deve ser a única fórmula usada. Ver a seção seguinte para a diretriz de variação criativa.
+
+### Diretrizes de criatividade visual (variar layout a cada peça — inspiração Canva)
+
+O Canva oferece um repertório enorme de fontes, layouts e elementos gráficos (adesivos/stickers, washi tape, colagens de foto, balões de fala estilo quadrinho, texturas de papel rasgado, blocos diagonais de cor, badges/selos, confete e estrelas, molduras tipo "quote", fitas decorativas). O briefing de arte de cada slide deve explorar essa variedade em vez de repetir sempre a mesma composição. Antes de escrever o brief de um novo pacote, escolher deliberadamente um layout diferente do usado no pacote anterior.
+
+- **Variar a composição por slide/dia**: nem todo slide precisa ser vertical centralizado com ícone no topo. Alternar entre foto de destaque com texto sobreposto, grid de elementos, moldura de citação, colagem, blocos diagonais, quadro tipo "capa de revista", selo/badge central, etc.
+- **Variar a tipografia com critério**: manter a fonte-base da marca (Baloo 2/Poppins ExtraBold) como headline principal para garantir legibilidade e identidade; usar uma fonte manuscrita/script apenas como **acento decorativo pequeno** (uma palavra, uma assinatura, um "bônus"), nunca no texto principal.
+- **Variar os elementos gráficos**: adesivos, fitas, texturas, molduras, badges, ícones ilustrados (não só o círculo colorido padrão) — sempre dentro da paleta da marca (teal, lilás, coral, dourado, azul-marinho, bege/creme).
+- **O que NÃO varia, mesmo com o layout diferente**: a paleta de cores da marca, o rodapé fixo (endereço + telefone), a etiqueta discreta "Conteúdo com IA", e a presença do Leo quando o slide pedir um elemento de acolhimento/mascote.
+- Cada brief de slide (dentro do painel "Ver copy e brief de cada slide" da galeria) deve descrever esse layout específico escolhido para aquele slide — não reciclar a mesma frase de brief entre posts diferentes.
+
+Importante: a IA não tem acesso direto ao Canva e não gera as imagens finais — quem monta a arte, escolhendo fontes/elementos reais dentro do Canva a partir do brief, continua sendo Ana Paula/Fábio. O ganho aqui é a riqueza e a variedade da direção criativa escrita, não a geração da imagem em si.
 
 ## Estrutura do carrossel (3 a 5 slides)
 
-- **Slide 1 (capa/gancho):** dor/pergunta forte, headline com palavra de impacto colorida, Leo interagindo, CTA "deslize".
+- **Slide 1 (capa/gancho):** dor/pergunta forte, headline com palavra de impacto colorida, Leo interagindo (quando o layout escolhido o incluir), CTA "deslize".
 - **Slides 2-4:** 1 ideia por slide, ligando à dor do slide 1.
 - **Slide final:** diferencial + CTA de contato + rodapé.
+
+## Formatos de conteúdo (diversificar — nem todo dia precisa ser carrossel)
+
+Ao longo da semana, alternar entre estes formatos (mantendo a proporção 60/30/10 de pilares independente do formato escolhido):
+
+1. **Carrossel** (estrutura acima) — formato mais comum, mas não exclusivo.
+2. **Post informativo/educacional com fonte confiável** (novo formato, 1 imagem ou carrossel curto de 2-3 slides): conteúdo de valor prático e factual, sempre com uma fonte confiável citada e visível (ver "Biblioteca de fontes confiáveis" abaixo). Exemplos: correção de erro comum de português, explicação de uma mudança ortográfica ou regra gramatical, "você sabia" com dado de órgão oficial (MEC, OMS, CDC etc.), tradução simples de um termo técnico (ex.: "o que são funções executivas"). Esse formato não pertence só ao pilar Reforço Escolar — pode se conectar a qualquer um dos três pilares, desde que a informação sirva de ponte natural para o serviço.
+3. **Reels** (formatos já definidos abaixo).
+4. **Stories** (sempre presentes, apoiando o conteúdo principal do dia).
+
+Regra de uso do formato informativo: todo dado, estatística, definição técnica ou "regra" apresentada precisa vir de uma fonte real da biblioteca abaixo, citada de forma visível (nome da instituição no rodapé do slide e/ou na legenda). Nunca inventar dado, estatística ou fonte. Na dúvida sobre o conteúdo exato de uma norma ou dado, preferir uma formulação genérica e cautelosa a arriscar um detalhe impreciso.
+
+## Biblioteca de fontes confiáveis para conteúdo educativo
+
+Usar apenas fontes desta lista (ou de mesma natureza institucional/acadêmica) ao produzir o formato "post informativo":
+
+**Língua portuguesa (ortografia, gramática, regência):** Academia Brasileira de Letras (ABL) / VOLP (Vocabulário Ortográfico da Língua Portuguesa); dicionários Houaiss, Aurélio, Michaelis, Priberam, Aulete (já usados na seção de regência verbal).
+
+**Educação e aprendizagem (Brasil):** Ministério da Educação (MEC) — dificuldades de aprendizagem, BNCC, educação integral, alfabetização, educação especial inclusiva, altas habilidades; Conselho Nacional de Educação (CNE) — habilidades socioemocionais; Associação Brasileira de Psicopedagogia (ABPp) — Código de Ética do Psicopedagogo.
+
+**Saúde e desenvolvimento infantil:** Ministério da Saúde — desenvolvimento infantil, atividade física infantil; Organização Mundial da Saúde (OMS) — desenvolvimento na primeira infância, aprender brincando; UNICEF e LEGO Foundation — Learning through Play.
+
+**Neurodesenvolvimento e condições específicas (referência internacional, sempre com cautela para não soar diagnóstico):** Centers for Disease Control and Prevention (CDC) — TDAH e autismo; International Dyslexia Association; Yale Center for Dyslexia & Creativity; Learning Disabilities Association of America — discalculia; American Speech-Language-Hearing Association (ASHA) — desenvolvimento de fala e linguagem.
+
+**Privacidade/dados (quando o conteúdo tocar em dados de crianças):** Autoridade Nacional de Proteção de Dados (ANPD).
+
+Ao citar qualquer uma dessas fontes, manter o mesmo cuidado ético do restante deste documento: nunca transformar a citação em autodiagnóstico, promessa de resultado ou linguagem clínica fechada.
 
 ## Roteiro de Reels/Shorts
 
@@ -131,7 +188,7 @@ Este repositório é **somente armazenamento/geração de conteúdo para revisã
 
 ### Galeria HTML de revisão (único formato usado em `/POST DIARIO INSTAGRAM/`)
 
-A pasta `/POST DIARIO INSTAGRAM/` contém **apenas um arquivo de texto**: `_Galeria.html`. Não são gerados arquivos `.md` soltos nessa pasta — todo o pacote do dia (carrossel com copy e brief de arte por slide, legenda, roteiro de Reels e frames de Stories) é escrito diretamente dentro dessa página HTML única, para abrir bonito no navegador (Google Chrome).
+A pasta `/POST DIARIO INSTAGRAM/` contém **apenas um arquivo de texto**: `_Galeria.html`. Não são gerados arquivos `.md` soltos nessa pasta — todo o pacote do dia (peça principal do dia — carrossel ou post informativo —, com copy e brief de arte por slide, legenda, roteiro de Reels e frames de Stories) é escrito diretamente dentro dessa página HTML única, para abrir bonito no navegador (Google Chrome). Quando o dia usar o formato "post informativo" (ver seção "Formatos de conteúdo") em vez de carrossel, adaptar o bloco `.post` mantendo a mesma estrutura visual (grid de imagens com o número real de slides daquele post, que pode ser 1 a 3, e o painel "Ver copy e brief de cada slide" citando a fonte usada).
 
 `_Galeria.html` reúne os posts em ordem cronológica decrescente (mais recente primeiro). Cada bloco `.post` traz: miniaturas das artes do carrossel, a legenda pronta para copiar (botão "Copiar legenda"), e três painéis expansíveis (`<details>`) — "Ver copy e brief de cada slide", "Reels — roteiro completo" e "Stories — N frames" — cada um com o conteúdo completo daquele dia. A cada execução, a rotina insere um novo bloco `.post` no topo da lista, reaproveitando exatamente a mesma estrutura HTML/CSS dos blocos existentes.
 
