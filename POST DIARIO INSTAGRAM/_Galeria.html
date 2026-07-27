@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="pt-BR">
 <head>
 <meta charset="utf-8">
@@ -8,198 +8,135 @@
 <style>
   :root{--teal:#12A29A;--lilac:#A78BC9;--gold:#F5A623;--coral:#F4877E;--navy:#17325C;--ink:#6E675C}
   *{box-sizing:border-box;margin:0;padding:0}
+  html,body{overflow-x:hidden;max-width:100%}
   body{font-family:'Nunito',sans-serif;color:var(--navy);
     background:radial-gradient(900px 500px at 15% 0%,rgba(143,216,210,.28),transparent 60%),
                radial-gradient(800px 500px at 85% 0%,rgba(220,205,236,.34),transparent 60%),
-               linear-gradient(170deg,#FEFBF6,#FBF3E8);min-height:100vh;padding:38px 26px 70px}
-  header{max-width:1180px;margin:0 auto 34px;text-align:center}
-  h1{font-family:'Baloo 2',sans-serif;font-size:44px;letter-spacing:-1px}
+               linear-gradient(170deg,#FEFBF6,#FBF3E8);min-height:100vh;padding:30px 18px 70px}
+  header{max-width:1180px;margin:0 auto 30px;text-align:center}
+  h1{font-family:'Baloo 2',sans-serif;font-size:38px;letter-spacing:-1px;line-height:1.15}
   h1 i{font-style:normal}
   h1 i:nth-child(1){color:var(--teal)} h1 i:nth-child(2){color:var(--lilac)}
   h1 i:nth-child(3){color:var(--gold)} h1 i:nth-child(4){color:var(--coral)}
-  header p{color:var(--ink);margin-top:6px;font-size:17px}
-  .wrap{max-width:1180px;margin:0 auto;display:flex;flex-direction:column;gap:30px}
-  .post{background:linear-gradient(155deg,#fff,#fffdf9);border-radius:24px;padding:24px 26px;
+  header p{color:var(--ink);margin-top:6px;font-size:16px}
+  .wrap{max-width:1180px;margin:0 auto;display:flex;flex-direction:column;gap:26px}
+  .post{background:linear-gradient(155deg,#fff,#fffdf9);border-radius:22px;padding:22px;
     box-shadow:0 2px 4px rgba(23,50,92,.05),0 14px 34px rgba(23,50,92,.10)}
-  .cab{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;margin-bottom:18px}
-  .cab h2{font-family:'Baloo 2',sans-serif;font-size:27px}
-  .tag{font-size:13px;font-weight:700;padding:5px 13px;border-radius:999px;
-    background:rgba(18,162,154,.13);color:#0B7F79;letter-spacing:.3px}
+  .cab{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;margin-bottom:16px}
+  .cab h2{font-family:'Baloo 2',sans-serif;font-size:24px}
+  .tag{font-size:12px;font-weight:700;padding:5px 12px;border-radius:999px;
+    background:rgba(18,162,154,.13);color:#0B7F79}
   .tag.psico{background:rgba(167,139,201,.18);color:#7B5EA7}
-  .tag.contraturno{background:rgba(245,166,35,.18);color:#9A6B0E}
-  .fotos{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}
-  .fotos a{display:block;border-radius:13px;overflow:hidden;position:relative;
-    box-shadow:0 3px 12px rgba(23,50,92,.13);transition:transform .16s ease, box-shadow .16s ease;
-    background:#f1ece2;min-height:120px}
-  .fotos a:hover{transform:translateY(-4px);box-shadow:0 10px 24px rgba(23,50,92,.2)}
+  .tag.dica{background:rgba(245,166,35,.18);color:#C97F0A}
+  .fotos{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}
+  .fotos a{display:block;border-radius:12px;overflow:hidden;position:relative;
+    box-shadow:0 3px 12px rgba(23,50,92,.13);transition:transform .16s ease}
+  .fotos a:hover{transform:translateY(-4px)}
   .fotos img{width:100%;display:block}
-  .fotos span{position:absolute;left:7px;top:7px;background:rgba(23,50,92,.78);color:#fff;
-    font-size:12px;font-weight:700;padding:3px 9px;border-radius:999px;z-index:2}
-  .fotos small{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
-    text-align:center;font-size:11.5px;color:#a89f8f;padding:8px;line-height:1.4}
-  .legenda{margin-top:20px;background:#FBF7F0;border-radius:16px;padding:18px 20px;
-    font-size:15px;line-height:1.62;color:#5E594F;white-space:pre-wrap}
-  .acoes{margin-top:15px;display:flex;gap:11px;flex-wrap:wrap}
+  .fotos span{position:absolute;left:6px;top:6px;background:rgba(23,50,92,.78);color:#fff;
+    font-size:11px;font-weight:700;padding:3px 8px;border-radius:999px}
+  .legenda{margin-top:18px;background:#FBF7F0;border-radius:15px;padding:16px 18px;
+    font-size:14.5px;line-height:1.62;color:#5E594F;white-space:pre-wrap;
+    overflow-wrap:anywhere;word-break:break-word;max-height:250px;overflow-y:auto}
+  .acoes{margin-top:14px}
   .bt{display:inline-flex;align-items:center;gap:8px;border:0;cursor:pointer;
     font-family:'Nunito',sans-serif;font-size:14px;font-weight:700;
-    padding:11px 19px;border-radius:999px;text-decoration:none;
+    padding:11px 18px;border-radius:999px;
     background:linear-gradient(140deg,#2CBDB4,#0E8F88);color:#fff;
     box-shadow:0 6px 15px rgba(14,143,136,.32)}
-  .bt.sec{background:#fff;color:var(--ink);box-shadow:0 3px 10px rgba(23,50,92,.12)}
-  .bt:active{transform:translateY(1px)}
-  .ok{font-size:13px;color:#0B7F79;font-weight:700;opacity:0;transition:opacity .2s}
-  .ok.on{opacity:1}
-  details{margin-top:16px;background:#F4F0FB;border-radius:16px;padding:4px 20px}
-  details+details{margin-top:12px}
-  details.reels{background:rgba(244,135,126,.12)}
-  details.stories{background:rgba(245,166,35,.12)}
-  summary{cursor:pointer;font-family:'Baloo 2',sans-serif;font-size:16px;padding:14px 0;
-    color:var(--navy);list-style:none;display:flex;align-items:center;gap:8px}
-  summary::-webkit-details-marker{display:none}
-  summary::before{content:'▸';font-size:13px;color:var(--ink);transition:transform .15s}
-  details[open] summary::before{transform:rotate(90deg)}
-  .slide-item{padding:14px 0;border-top:1px solid rgba(23,50,92,.08)}
-  .slide-item:first-child{border-top:0}
-  .slide-item b{display:block;font-size:13.5px;color:#0B7F79;margin-bottom:4px}
-  .slide-item .copy{font-weight:700;margin-bottom:5px}
-  .slide-item .brief{font-size:13.5px;color:#79726690;color:#7c7466;line-height:1.55}
-  .beat{padding:12px 0;border-top:1px solid rgba(23,50,92,.08)}
-  .beat:first-child{border-top:0}
-  .beat b{display:block;font-size:13px;color:#8a3f38;margin-bottom:3px}
-  .beat .onscreen{display:inline-block;margin-top:5px;font-size:12.5px;font-weight:700;
-    background:rgba(23,50,92,.08);padding:3px 10px;border-radius:999px}
-  .audio-tag{display:inline-block;margin-top:12px;font-size:13px;font-weight:700;color:#9A6B0E;
-    background:rgba(245,166,35,.16);padding:6px 13px;border-radius:999px}
-  .frame{padding:12px 0;border-top:1px solid rgba(23,50,92,.08)}
-  .frame:first-child{border-top:0}
-  .frame b{display:block;font-size:13px;color:#9A6B0E;margin-bottom:3px}
-  .aviso{max-width:1180px;margin:0 auto 24px;background:rgba(244,135,126,.14);border:1px solid rgba(244,135,126,.35);
-    color:#8a3f38;border-radius:14px;padding:14px 18px;font-size:14px;line-height:1.5}
-  footer{max-width:1180px;margin:40px auto 0;text-align:center;color:#9a9384;font-size:13px;line-height:1.7}
-  @media(max-width:760px){.fotos{grid-template-columns:repeat(2,1fr)}h1{font-size:33px}}
+  footer{max-width:1180px;margin:38px auto 0;text-align:center;color:#9a9384;font-size:13px;line-height:1.7}
 </style>
 </head>
 <body>
 
 <header>
   <h1><i>Neuro</i><i>L</i><i>e</i><i>a</i>rn — Posts do dia</h1>
-  <p>Confira a arte e copie a legenda quando quiser publicar.</p>
+  <p>Confira a arte e copie a legenda antes de publicar.</p>
 </header>
-
-<div class="aviso">
-  <b>Como usar esta página:</b> abra "Ver copy e brief de cada slide" para montar a arte (Canva/CapCut) e salve cada PNG nesta mesma pasta com o nome exato mostrado embaixo da miniatura (ex.: <code>Post do dia 2026-07-26 - 1 de 5.png</code>) — a miniatura aparece sozinha assim que o arquivo existir. Os roteiros de Reels e Stories ficam nos blocos logo abaixo da legenda. Nem todo dia é carrossel de 5 slides: alguns dias trazem um "post informativo" mais curto (1-3 slides), sempre com a fonte citada.
-</div>
 
 <div class="wrap">
 
-  <!-- ============ 27/07 ============ -->
+  <!-- ===== 27/07 · MAL ou MAU ===== -->
   <div class="post">
-    <div class="cab">
-      <h2>Segunda, 27 de julho</h2>
-      <span class="tag">Reforço Escolar</span>
-      <span class="tag" style="background:rgba(23,50,92,.08);color:#37333D">Post informativo</span>
+    <div class="cab"><h2>Segunda, 27 de julho</h2><span class="tag dica">Dica de Português</span></div>
+    <div class="fotos">
+      <a href="Post do dia 2026-07-27 - 1 de 2.png" target="_blank"><span>1</span><img src="Post do dia 2026-07-27 - 1 de 2.png" alt="Slide 1"></a>
+      <a href="Post do dia 2026-07-27 - 2 de 2.png" target="_blank"><span>2</span><img src="Post do dia 2026-07-27 - 2 de 2.png" alt="Slide 2"></a>
     </div>
-    <div class="fotos" style="grid-template-columns:repeat(2,1fr);max-width:420px">
-      <a href="Post do dia 2026-07-27 - 1 de 2.png" target="_blank"><span>1</span><img src="Post do dia 2026-07-27 - 1 de 2.png" alt="Slide 1" onerror="this.style.display='none';this.parentElement.querySelector('small').style.display='flex'"><small style="display:flex">Post do dia 2026-07-27 - 1 de 2.png</small></a>
-      <a href="Post do dia 2026-07-27 - 2 de 2.png" target="_blank"><span>2</span><img src="Post do dia 2026-07-27 - 2 de 2.png" alt="Slide 2" onerror="this.style.display='none';this.parentElement.querySelector('small').style.display='flex'"><small style="display:flex">Post do dia 2026-07-27 - 2 de 2.png</small></a>
-    </div>
+    <div class="legenda" id="lA">MAL ou MAU: essa dúvida ainda embaralha a sua cabeça na hora de escrever? 📝
 
-    <div class="legenda" id="l20260727">MAL ou MAU: essa dúvida ainda troca as pernas na hora de escrever? 📝
+A confusão é comum e tem explicação simples. MAU é adjetivo, o oposto de BOM, e concorda em gênero e número: "um MAU aluno", "uma MÁ nota". Já MAL é advérbio, o oposto de BEM, e não varia: "ele foi MAL na prova", "dormiu MAL".
 
-A confusão é super comum — e tem uma explicação simples. MAU é adjetivo, o oposto de BOM, e concorda em gênero e número: "um MAU aluno", "uma MÁ nota". Já MAL é advérbio (oposto de BEM) ou substantivo, e não varia: "ele foi MAL na prova", "isso é um MAL necessário".
+O truque para nunca mais errar: se der para trocar por BOM ou BOA, é MAU. Se der para trocar por BEM, é MAL.
 
-Truque rápido: se der para trocar por BOM ou BOA, é MAU. Se der para trocar por BEM, é MAL.
-
-Pequenos deslizes de ortografia como esse aparecem direto em redações e provas — e, com o apoio certo, podem virar segurança em vez de insegurança na hora de escrever. No reforço escolar especializado do Espaço Neurolearn, esse tipo de dúvida é trabalhado dentro do jeito de aprender de cada criança.
+Deslizes assim aparecem o tempo todo em redações e provas. Com o apoio certo, deixam de ser motivo de insegurança e viram domínio. No reforço escolar especializado do Espaço NeuroLearn, esse tipo de dúvida é trabalhado dentro do jeito de aprender de cada criança.
 
 Fonte: Vocabulário Ortográfico da Língua Portuguesa (VOLP), Academia Brasileira de Letras.
 
-Este conteúdo foi produzido com apoio de Inteligência Artificial e curadoria da equipe Neurolearn.
-
 #reforcoescolar #dicasdeportugues #campinas #taquaral #reforcoescolarcampinas #espaconeurolearn #maededicada</div>
-    <div class="acoes">
-      <button class="bt" onclick="copiar('l20260727',this)">Copiar legenda</button>
-      <span class="ok" id="ok-l20260727">copiada</span>
-    </div>
+    <div class="acoes"><button class="bt" onclick="copiar('lA',this)">Copiar legenda</button></div>
   </div>
 
-  <!-- ============ 26/07 ============ -->
+  <!-- ===== 27/07 · Psicopedagogia ===== -->
   <div class="post">
-    <div class="cab">
-      <h2>Domingo, 26 de julho</h2>
-      <span class="tag psico">Psicopedagogia</span>
-    </div>
+    <div class="cab"><h2>Segunda, 27 de julho</h2><span class="tag psico">Psicopedagogia</span></div>
     <div class="fotos">
-      <a href="Post do dia 2026-07-26 - 1 de 5.png" target="_blank"><span>1</span><img src="Post do dia 2026-07-26 - 1 de 5.png" alt="Slide 1" onerror="this.style.display='none';this.parentElement.querySelector('small').style.display='flex'"><small style="display:flex">Post do dia 2026-07-26 - 1 de 5.png</small></a>
-      <a href="Post do dia 2026-07-26 - 2 de 5.png" target="_blank"><span>2</span><img src="Post do dia 2026-07-26 - 2 de 5.png" alt="Slide 2" onerror="this.style.display='none';this.parentElement.querySelector('small').style.display='flex'"><small style="display:flex">Post do dia 2026-07-26 - 2 de 5.png</small></a>
-      <a href="Post do dia 2026-07-26 - 3 de 5.png" target="_blank"><span>3</span><img src="Post do dia 2026-07-26 - 3 de 5.png" alt="Slide 3" onerror="this.style.display='none';this.parentElement.querySelector('small').style.display='flex'"><small style="display:flex">Post do dia 2026-07-26 - 3 de 5.png</small></a>
-      <a href="Post do dia 2026-07-26 - 4 de 5.png" target="_blank"><span>4</span><img src="Post do dia 2026-07-26 - 4 de 5.png" alt="Slide 4" onerror="this.style.display='none';this.parentElement.querySelector('small').style.display='flex'"><small style="display:flex">Post do dia 2026-07-26 - 4 de 5.png</small></a>
-      <a href="Post do dia 2026-07-26 - 5 de 5.png" target="_blank"><span>5</span><img src="Post do dia 2026-07-26 - 5 de 5.png" alt="Slide 5" onerror="this.style.display='none';this.parentElement.querySelector('small').style.display='flex'"><small style="display:flex">Post do dia 2026-07-26 - 5 de 5.png</small></a>
+      <a href="Post do dia 2026-07-27 - 1 de 5.png" target="_blank"><span>1</span><img src="Post do dia 2026-07-27 - 1 de 5.png" alt="Slide 1"></a>
+      <a href="Post do dia 2026-07-27 - 2 de 5.png" target="_blank"><span>2</span><img src="Post do dia 2026-07-27 - 2 de 5.png" alt="Slide 2"></a>
+      <a href="Post do dia 2026-07-27 - 3 de 5.png" target="_blank"><span>3</span><img src="Post do dia 2026-07-27 - 3 de 5.png" alt="Slide 3"></a>
+      <a href="Post do dia 2026-07-27 - 4 de 5.png" target="_blank"><span>4</span><img src="Post do dia 2026-07-27 - 4 de 5.png" alt="Slide 4"></a>
+      <a href="Post do dia 2026-07-27 - 5 de 5.png" target="_blank"><span>5</span><img src="Post do dia 2026-07-27 - 5 de 5.png" alt="Slide 5"></a>
     </div>
+    <div class="legenda" id="lB">Seu filho se esforça, mas algo parece travar? 💜
 
-    <div class="legenda" id="l20260726">Seu filho se esforça bastante, mas as dificuldades persistem, mesmo depois de tantas tentativas em casa? 💛
+Tem uma diferença entre não querer e não conseguir. Quando a criança se dedica, senta para estudar, tenta de verdade — e ainda assim o resultado não vem —, quase sempre existe algo no caminho da aprendizagem que ainda não foi compreendido.
 
-A gente sabe como isso pesa: ver a dedicação dele e, ainda assim, sentir que falta alguma peça. Às vezes, o que ajuda não é insistir mais na mesma estratégia, e sim entender melhor COMO essa criança aprende.
+É exatamente isso que a avaliação psicopedagógica investiga: como aquela criança aprende, onde ela trava e quais estratégias podem funcionar melhor para ela. Não é um rótulo, não é um diagnóstico fechado e não define limites para o futuro dela. É um mapa.
 
-No Espaço Neurolearn, a avaliação neuropsicopedagógica escuta a história da criança e da família antes de qualquer coisa, e olha para o perfil de aprendizagem como um todo — para que as próximas estratégias façam sentido para ele, não para uma criança genérica.
+E o que muda depois? A família para de tentar às cegas, a escola recebe orientações concretas e a criança passa a estudar de um jeito que finalmente faz sentido.
 
-Se você reconheceu sua casa nesses sinais, vale conversar com quem entende. Manda uma mensagem no WhatsApp (19) 99817-6452 ou vem nos visitar na Av. Dr. Heitor Penteado, 809, Taquaral, Campinas.
+Se você reconheceu seu filho nesse texto, vamos conversar. Chame a gente no WhatsApp (19) 99817-6452 ou venha nos visitar na Rua Heitor Penteado, 809, Taquaral, Campinas.
 
-Este conteúdo foi produzido com apoio de Inteligência Artificial e curadoria da equipe Neurolearn.
-
-#psicopedagogia #neuropsicopedagogia #campinas #taquaral #psicopedagogacampinas #espaconeurolearn #criancasconfiantes #maededicada</div>
-    <div class="acoes">
-      <button class="bt" onclick="copiar('l20260726',this)">Copiar legenda</button>
-      <span class="ok" id="ok-l20260726">copiada</span>
-    </div>
+#psicopedagogia #avaliacaopsicopedagogica #psicopedagogacampinas #campinas #taquaral #espaconeurolearn #dificuldadedeaprendizagem</div>
+    <div class="acoes"><button class="bt" onclick="copiar('lB',this)">Copiar legenda</button></div>
   </div>
 
-  <!-- ============ 25/07 ============ -->
+  <!-- ===== 26/07 · Reforço Escolar ===== -->
   <div class="post">
-    <div class="cab">
-      <h2>Sábado, 25 de julho</h2>
-      <span class="tag">Reforço Escolar</span>
-    </div>
+    <div class="cab"><h2>Domingo, 26 de julho</h2><span class="tag">Reforço Escolar</span></div>
     <div class="fotos">
-      <a href="Post do dia 2026-07-25 - 1 de 5.png" target="_blank"><span>1</span><img src="Post do dia 2026-07-25 - 1 de 5.png" alt="Slide 1" onerror="this.style.display='none';this.parentElement.querySelector('small').style.display='flex'"><small style="display:flex">Post do dia 2026-07-25 - 1 de 5.png</small></a>
-      <a href="Post do dia 2026-07-25 - 2 de 5.png" target="_blank"><span>2</span><img src="Post do dia 2026-07-25 - 2 de 5.png" alt="Slide 2" onerror="this.style.display='none';this.parentElement.querySelector('small').style.display='flex'"><small style="display:flex">Post do dia 2026-07-25 - 2 de 5.png</small></a>
-      <a href="Post do dia 2026-07-25 - 3 de 5.png" target="_blank"><span>3</span><img src="Post do dia 2026-07-25 - 3 de 5.png" alt="Slide 3" onerror="this.style.display='none';this.parentElement.querySelector('small').style.display='flex'"><small style="display:flex">Post do dia 2026-07-25 - 3 de 5.png</small></a>
-      <a href="Post do dia 2026-07-25 - 4 de 5.png" target="_blank"><span>4</span><img src="Post do dia 2026-07-25 - 4 de 5.png" alt="Slide 4" onerror="this.style.display='none';this.parentElement.querySelector('small').style.display='flex'"><small style="display:flex">Post do dia 2026-07-25 - 4 de 5.png</small></a>
-      <a href="Post do dia 2026-07-25 - 5 de 5.png" target="_blank"><span>5</span><img src="Post do dia 2026-07-25 - 5 de 5.png" alt="Slide 5" onerror="this.style.display='none';this.parentElement.querySelector('small').style.display='flex'"><small style="display:flex">Post do dia 2026-07-25 - 5 de 5.png</small></a>
+      <a href="Post do dia 2026-07-26 - 1 de 5.png" target="_blank"><span>1</span><img src="Post do dia 2026-07-26 - 1 de 5.png" alt="Slide 1"></a>
+      <a href="Post do dia 2026-07-26 - 2 de 5.png" target="_blank"><span>2</span><img src="Post do dia 2026-07-26 - 2 de 5.png" alt="Slide 2"></a>
+      <a href="Post do dia 2026-07-26 - 3 de 5.png" target="_blank"><span>3</span><img src="Post do dia 2026-07-26 - 3 de 5.png" alt="Slide 3"></a>
+      <a href="Post do dia 2026-07-26 - 4 de 5.png" target="_blank"><span>4</span><img src="Post do dia 2026-07-26 - 4 de 5.png" alt="Slide 4"></a>
+      <a href="Post do dia 2026-07-26 - 5 de 5.png" target="_blank"><span>5</span><img src="Post do dia 2026-07-26 - 5 de 5.png" alt="Slide 5"></a>
     </div>
+    <div class="legenda" id="lC">A lição de casa virou campo de batalha? 💛
 
-    <div class="legenda" id="l20260725">As brigas na hora do dever de casa viraram rotina lá em casa? 💛
+A gente entende: ver seu filho travado ou irritado na hora de estudar cansa — e machuca. Antes de concluir que é falta de esforço, vale observar outra possibilidade: às vezes o que falta não é vontade, é uma estratégia que converse com o jeito dele aprender.
 
-A gente entende: ver seu filho travado, irritado ou sem paciência na hora de estudar dói — e cansa. Antes de pensar que é "falta de esforço", vale observar: às vezes o que falta não é vontade, é uma ESTRATÉGIA que converse com o jeito dele aprender.
+No Espaço NeuroLearn, o reforço escolar especializado começa sempre pelo perfil de aprendizagem da criança. Assim o apoio faz sentido para ela — e a rotina em casa fica mais leve para todo mundo.
 
-No Espaço Neurolearn, o reforço escolar especializado começa sempre pelo perfil de aprendizagem da criança. Assim, o apoio faz sentido para ela — e a rotina em casa fica mais leve para todo mundo.
+Reconheceu a sua casa nesses sinais? Chame a gente no WhatsApp (19) 99817-6452 ou venha nos visitar na Rua Heitor Penteado, 809, Taquaral, Campinas.
 
-Se você reconheceu sua casa nesses sinais, vamos conversar? Manda uma mensagem no WhatsApp (19) 99817-6452 ou vem nos visitar na Av. Dr. Heitor Penteado, 809, Taquaral, Campinas.
-
-#reforcoescolar #psicopedagogia #campinas #taquaral #reforcoescolarcampinas #espaconeurolearn #dificuldadedeaprendizagem #maededicada</div>
-    <div class="acoes">
-      <button class="bt" onclick="copiar('l20260725',this)">Copiar legenda</button>
-      <span class="ok" id="ok-l20260725">copiada</span>
-    </div>
+#reforcoescolar #psicopedagogia #campinas #taquaral #reforcoescolarcampinas #espaconeurolearn #dificuldadedeaprendizagem</div>
+    <div class="acoes"><button class="bt" onclick="copiar('lC',this)">Copiar legenda</button></div>
   </div>
 
 </div>
 
 <footer>
-  Clique em qualquer arte para abrir em tamanho real.
+  Toque em qualquer arte para abrir em tamanho real e baixar.
 </footer>
 
 <script>
 function copiar(id, bt){
   var t = document.getElementById(id).innerText;
   navigator.clipboard.writeText(t).then(function(){
-    var s = document.getElementById('ok-'+id);
-    s.classList.add('on');
     bt.textContent = 'Copiado!';
-    setTimeout(function(){ s.classList.remove('on'); bt.textContent='Copiar legenda'; }, 2200);
+    setTimeout(function(){ bt.textContent='Copiar legenda'; }, 2200);
   });
 }
 </script>
 </body>
 </html>
-
